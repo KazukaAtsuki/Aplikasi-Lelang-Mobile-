@@ -24,7 +24,7 @@ class _LelangPageState extends State<LelangPage>
   late Animation<Offset> _slideAnimation;
   
   Timer? _countdownTimer;
-  int _remainingSeconds = 3600; // 1 hour countdown
+  int _remainingSeconds = 60; // 1 hour countdown
   String _highestBid = "0";
   int _totalBidders = 0;
   bool _isLive = true;
